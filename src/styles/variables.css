@@ -1,0 +1,21 @@
+:root {
+  /* Light mode colors */
+  --bg: #ffffff;
+  --text: #1a1a1a;
+  --accent: #6366f1;
+  --card: #f8f9fa;
+  --card-hover: #e9ecef;
+  --border: #e0e0e0;
+  --shadow: rgba(0, 0, 0, 0.1);
+}
+
+[data-theme="dark"] {
+  /* Dark mode colors */
+  --bg: #0f172a;
+  --text: #f1f5f9;
+  --accent: #818cf8;
+  --card: #1e293b;
+  --card-hover: #334155;
+  --border: #334155;
+  --shadow: rgba(0, 0, 0, 0.3);
+}
